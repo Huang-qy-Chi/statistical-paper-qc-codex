@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+work/
+private/
+inputs/
+outputs/
+*.log
+.DS_Store
+Thumbs.db

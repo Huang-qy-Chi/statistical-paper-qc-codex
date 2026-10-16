@@ -1,0 +1,5 @@
+# Versions tested with Python 3.12.14; install in an isolated environment.
+PyMuPDF==1.28.0
+pypdf==6.10.0
+numpy==2.5.2
+python-docx==1.2.0
