@@ -1,0 +1,4 @@
+interface:
+  display_name: "Statistical Paper QC"
+  short_description: "Evidence based statistical manuscript and proof audits"
+  default_prompt: "Use $statistical-paper-qc to audit the supplied manuscript and supplement, track coverage, verify numerical findings, and create a QC report."
