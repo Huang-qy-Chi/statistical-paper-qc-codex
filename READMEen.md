@@ -10,7 +10,7 @@ This is a review workflow for Codex, not a standalone automated reviewer or a fo
 
 Adapted from `skills/jasa-acs-qc/SKILL.md` in [BIG-S2/statistical-paper-qc](https://github.com/BIG-S2/statistical-paper-qc). The upstream project provides Claude examples. This adaptation adds Codex instructions, portable tools, a coverage ledger, conditional statistical checks, and synthetic tests.
 
-This version was prepared on October 16, 2026. No license file was found in the upstream local snapshot used for the adaptation. No license has been added to this repository, and no authorization to adapt or redistribute the upstream material is claimed. Confirm upstream authorization before public release; attribution alone does not grant permission. This directory is a release preparation draft and has not been uploaded to GitHub. Third-party runtime dependencies remain subject to their own licenses.
+This version was prepared on October 16, 2026. No license file was found in the upstream local snapshot used for the adaptation. 
 
 ## Features
 
