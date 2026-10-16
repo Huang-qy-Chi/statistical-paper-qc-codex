@@ -1,0 +1,17 @@
+{
+  "manuscript_id": "SYNTHETIC-001",
+  "purpose": "Ground truth for manual or model evaluation, not input to the evaluating model",
+  "scoped": 6,
+  "findings": [
+    {"object": "Supplementary Table S9 reference", "module": "A", "main_pdf_page": 1, "kind": "Defect", "severity": "Minor", "basis": "Only Table S1 is supplied; search and inspect all supplied pages before asserting absence"},
+    {"object": "Disjoint group total", "module": "B", "main_pdf_page": 1, "kind": "Error", "severity": "Major", "basis": "60+50=110, whereas the total is printed as 100 for the same cohort"},
+    {"object": "Theorem 1", "module": "D", "main_pdf_page": 2, "kind": "Error", "severity": "Critical", "basis": "x=0 is allowed by the universal statement and has square zero; supplement assumes nonzero x", "avoid_double_counting": "The missing nonzero assumption and counterexample are one combined issue"}
+  ],
+  "verified_controls": [
+    {"object": "One-third percentage", "basis": "33.3 percent is correct to one decimal"},
+    {"object": "Different replication counts", "basis": "R=1000 and R=2000 label different experiments"},
+    {"object": "Binomial identity", "basis": "(a+b)^2=a^2+2ab+b^2 for real scalars"}
+  ],
+  "expected_status_counts": {"finding": 3, "verified": 3, "pending": 0, "inconclusive": 0},
+  "classification_note": "Severity is the pilot rubric, not a universal journal policy; assess evidence and scope before wording or labels"
+}

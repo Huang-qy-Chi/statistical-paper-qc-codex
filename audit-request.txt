@@ -1,0 +1,8 @@
+Use $statistical-paper-qc to audit main.pdf and supp.pdf in the generated synthetic folder.
+ID: SYNTHETIC-001. Run Modules A and B plus Theorem 1 and the binomial identity in Module D; skip C.
+Check all six scoped claims: supplementary table reference, disjoint group total, Theorem 1,
+one-third percentage, different replication counts, and the printed binomial identity.
+Inspect rendered pages before equation findings. Save numerical code/output and a coverage ledger.
+Separate supported issues, verified controls, inconclusive items, and pending work.
+Create a QC report in the writable audit workspace. If Word visual QA is unavailable, deliver Markdown.
+Do not read the repository's expected.json until the audit is complete.
